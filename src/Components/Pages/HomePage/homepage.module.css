@@ -1,12 +1,15 @@
+
+
 .container {
     color: white;
 }
 
-.containerDividido, .containerkeyandDescr {
+.containerDividido {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-
+    margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .divimgs,
@@ -15,8 +18,14 @@
     margin: 0 auto;
 }
 
+.container h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em 0;
+}
 
-.btn, .btnred{
+.btn,
+.btnred {
     text-transform: uppercase;
     font-size: 2em;
     background-color: #4E7EDB;
@@ -35,7 +44,6 @@
 }
 
 .containerLetras {
-
     gap: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +54,8 @@
 
 .containerPalavraChave {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
     gap: 2em;
     justify-content: center;
     font-size: 2em;
@@ -58,3 +68,25 @@
     margin-bottom: 2em;
 }
 
+.containerkeyandDescr {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.containerkeyandDescr p {
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+
+.imagemBoneco{
+    position: absolute;
+    margin: 0;
+    left: 7.5%;
+}
+.don{
+    display: block;
+}
+.dnone{
+    display: none;
+}
