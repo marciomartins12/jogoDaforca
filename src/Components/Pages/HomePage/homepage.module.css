@@ -4,12 +4,11 @@
     color: white;
 }
 
-.containerDividido {
-    display: grid;
+.container section {
+    display: flex;
     grid-template-columns: 50% 50%;
     align-items: center;
-    margin-top: 5em;
-    margin-bottom: 2em;
+border: 1px solid white;
 }
 
 .divimgs,
@@ -43,28 +42,28 @@
     background-color: #b10f40;
 }
 
-.containerLetras {
+.containerLetras{
+    flex: 1;
     gap: 1em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
 }
 
-.containerPalavraChave {
+.lacunas {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     gap: 2em;
     justify-content: center;
     font-size: 2em;
 }
 
-.containerPalavraChave div {
+.lacunas div {
     width: 10%;
     text-align: center;
-    border-bottom: 20px solid white;
+    border-bottom: 15px solid white;
     margin-bottom: 2em;
 }
 
@@ -74,19 +73,15 @@
     justify-content: center;
 }
 
-.containerkeyandDescr p {
-    margin-left: 5em;
-    margin-bottom: 2em;
-}
 
-.imagemBoneco{
-    position: absolute;
-    margin: 0;
-    left: 7.5%;
-}
 .don{
     display: block;
 }
 .dnone{
     display: none;
+}
+
+.imagem{
+    border:1px solid white;
+    flex: 1;
 }

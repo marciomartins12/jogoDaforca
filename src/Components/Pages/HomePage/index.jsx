@@ -16,6 +16,7 @@ const HomePage = () => {
     }
     useEffect(() => {
         if (tentativas >= 6) {
+            alert("perdeu. tente novamente")
             eventListenerFal();
         }
     }, [tentativas]);
@@ -47,50 +48,44 @@ const HomePage = () => {
 
             <h2>{keyContents[0]}</h2>
 
-            <section className={Style.containerDividido}>
-                <div className={Style.divimgs}>
-                    <div>
-                        <img src="/public/assets/FORCA.png" alt="imagem da forca" />
-                        {
-                            <img className={Style.imagemBoneco} src={`public/assets/${tentativas}.png`} alt="imagem"/>
-                        }
+            <section>
+                <div className={Style.imagem}>
+
+                    {
+                        <img src={`public/assets/${tentativas}.png`} alt={`tentativa numero ${tentativas}`} />
+                    }
+                    <div className={Style.containerkeyandDescr}>
+                        <div className={Style.lacunas}>
+                            {palavraExplode.split("").map((item, indice) => <div key={indice} className={Style.letra}><h5 className={`${letrasClicadas.includes(item) ? Style.don : Style.dnone}`}>{item}</h5></div>)}
+                        </div>
+                        <p>dica : {keyContents[2]}</p>
                     </div>
 
                 </div>
+
 
                 <div className={Style.containerLetras}>
                     {
                         alfabeto.map((letra, indice) =>
                             <button
+                                key={indice}
                                 className={`${palavraExplode.includes(letra) ? Style.btn : Style.btnred}`}
                                 disabled={letrasClicadas.includes(letra)}
                                 onClick={() => {
                                     setletrasClicadas((item) => [...item, letra]);
-                                    if(!palavraExplode.includes(letra)){
-
+                                    if (!palavraExplode.includes(letra)) {
                                         settentativas(tentativas + 1);
                                     }
-
                                 }
                                 }
-                                key={indice}
                             >
                                 <h4>{letra}</h4>
                             </button>
                         )
                     }
-
-
                 </div>
 
             </section>
-            <div className={Style.containerkeyandDescr}>
-
-                <div className={Style.containerPalavraChave}>
-                    {palavraExplode.split("").map((item, indice) => <div key={indice} className={Style.letra}><h5 className={`${letrasClicadas.includes(item) ? Style.don : Style.dnone}`}>{item}</h5></div>)}
-                </div>
-                <p>dica : {keyContents[2]}</p>
-            </div>
 
         </main>
 

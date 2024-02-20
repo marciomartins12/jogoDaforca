@@ -187,10 +187,6 @@
             "hint": "Sua capital é Goiânia e faz divisa com o Distrito Federal."
           },
           {
-            "word": "minas gerais",
-            "hint": "É o estado com mais municípios no Brasil, com 853 cidades."
-          },
-          {
             "word": "bahia",
             "hint": "Possui o maior litoral do Brasil e é conhecido por suas praias paradisíacas."
           },
@@ -270,18 +266,6 @@
           {
             "word": "piloto",
             "hint": "Esta profissão exige muito conhecimento técnico e habilidades de tomada de decisão sob pressão, além de boa coordenação motora."
-          },
-          {
-            "word": "assistente social",
-            "hint": "Atua na promoção do bem-estar social, na luta pelos direitos humanos e na melhoria da qualidade de vida das pessoas e comunidades em situação de vulnerabilidade social."
-          },
-          {
-            "word": "analista de sistemas",
-            "hint": "Este profissional é responsável por analisar, projetar e desenvolver sistemas de informação, buscando soluções tecnológicas que atendam às necessidades dos usuários e da empresa."
-          },
-          {
-            "word": "gerente de projetos",
-            "hint": "Este profissional é responsável por liderar a equipe em um projeto, garantindo que os objetivos sejam alcançados dentro do prazo e orçamento estabelecidos."
           }
         ]
       },
