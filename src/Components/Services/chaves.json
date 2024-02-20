@@ -1,318 +1,126 @@
 {
-    "themes": [
+  "themes": [
       {
-        "name": "Animais",
-        "words": [
-          {
-            "word": "gato",
-            "hint": "Animal doméstico."
-          },
-          {
-            "word": "cachorro",
-            "hint": "Animal doméstico."
-          },
-          {
-            "word": "leão",
-            "hint": "Animal selvagem da família dos felinos."
-          },
-          {
-            "word": "elefante",
-            "hint": "Animal de grande porte."
-          },
-          {
-            "word": "tigre",
-            "hint": "Animal selvagem da família dos felinos."
-          },
-          {
-            "word": "panda",
-            "hint": "Animal fofo e peludo."
-          },
-          {
-            "word": "urso",
-            "hint": "Animal grande e peludo."
-          },
-          {
-            "word": "girafa",
-            "hint": "Animal alto com pescoço longo."
-          },
-          {
-            "word": "macaco",
-            "hint": "Animal que vive em árvores."
-          },
-          {
-            "word": "cavalo",
-            "hint": "Animal doméstico com quatro."
-          }
-        ]
+          "name": "Animais",
+          "words": [
+              {
+                  "word": "gato",
+                  "hint": "Animal domestico."
+              },
+              {
+                  "word": "urso",
+                  "hint": "Animal grande e peludo."
+              },
+              {
+                  "word": "macaco",
+                  "hint": "Animal que vive em arvores."
+              }
+          ]
       },
       {
-        "name": "Frutas",
-        "words": [
-          {
-            "word": "banana",
-            "hint": "Amarela e doce, é fonte de potássio e energia."
-          },
-          {
-            "word": "maçã",
-            "hint": "De casca vermelha ou verde, é uma das frutas mais populares e saudáveis."
-          },
-          {
-            "word": "laranja",
-            "hint": "Cítrica e suculenta, é rica em vitamina C e fibra."
-          },
-          {
-            "word": "morango",
-            "hint": "Pequena e vermelha, é doce e saborosa, é uma das frutas mais consumidas no mundo."
-          },
-          {
-            "word": "uva",
-            "hint": "Pequena e arredondada, é muito utilizada para fazer vinhos e sucos."
-          },
-          {
-            "word": "limão",
-            "hint": "Cítrico e ácido, é muito usado para temperar saladas e carnes."
-          },
-          {
-            "word": "abacaxi",
-            "hint": "Doce e suculento, é rico em vitamina C e fibras alimentares."
-          },
-          {
-            "word": "melancia",
-            "hint": "Grande e suculenta, é rica em água e vitaminas."
-          },
-          {
-            "word": "melão",
-            "hint": "Doce e suculento, é rico em vitamina A e C e ajuda a hidratar o corpo."
-          },
-          {
-            "word": "kiwi",
-            "hint": "Pequeno e peludo, é rico em vitamina C e ajuda a fortalecer o sistema imunológico."
-          },
-          {
-            "word": "manga",
-            "hint": "Doce e suculenta, é rica em vitamina A e C e ajuda a manter a saúde da pele."
-          },
-          {
-            "word": "abacate",
-            "hint": "Cremoso e nutritivo, é rico em gorduras boas e ajuda a controlar o colesterol."
-          },
-          {
-            "word": "caqui",
-            "hint": "Doce e macio, é rico em vitamina A e C e ajuda a regular a digestão."
-          },
-          {
-            "word": "cereja",
-            "hint": "Pequena e vermelha, é doce e saborosa, é muito utilizada em sobremesas."
-          },
-          {
-            "word": "pêssego",
-            "hint": "Doce e suculento, é rico em vitamina A e C e ajuda a melhorar a digestão."
-          }
-        ]
+          "name": "Frutas",
+          "words": [
+              {
+                  "word": "banana",
+                  "hint": "Amarela e doce, e fonte de potassio e energia."
+              },
+              {
+                  "word": "maca",
+                  "hint": "De casca vermelha ou verde, e uma das frutas mais populares e saudaveis."
+              },
+              {
+                  "word": "laranja",
+                  "hint": "Citrica e suculenta, e rica em vitamina C e fibra."
+              },
+              {
+                  "word": "uva",
+                  "hint": "Pequena e arredondada, e muito utilizada para fazer vinhos e sucos."
+              },
+              {
+                  "word": "limao",
+                  "hint": "Citrico e acido, e muito usado para temperar saladas e carnes."
+              },
+              {
+                  "word": "kiwi",
+                  "hint": "Pequeno e peludo, e rico em vitamina C e ajuda a fortalecer o sistema imunologico."
+              },
+              {
+                  "word": "manga",
+                  "hint": "Doce e suculenta, e rica em vitamina A e C e ajuda a manter a saude da pele."
+              }
+          ]
       },
       {
-        "name": "Países",
-        "words": [
-          {
-            "word": "brasil",
-            "hint": "País localizado na América do Sul, conhecido por sua extensa costa litorânea."
-          },
-          {
-            "word": "austrália",
-            "hint": "País localizado na Oceania, famoso por suas paisagens naturais, como a Grande Barreira de Coral."
-          },
-          {
-            "word": "china",
-            "hint": "País localizado na Ásia, conhecido por sua rica história, cultura e economia em expansão."
-          },
-          {
-            "word": "japão",
-            "hint": "País localizado na Ásia, conhecido por sua cultura rica e diversa, tecnologia avançada e culinária sofisticada."
-          },
-          {
-            "word": "alemanha",
-            "hint": "País localizado na Europa, famoso por sua precisão, eficiência e inovação tecnológica."
-          },
-          {
-            "word": "portugal",
-            "hint": "País localizado na Europa, conhecido por suas belas praias, vinhos e culinária única."
-          },
-          {
-            "word": "estados unidos",
-            "hint": "País localizado na América do Norte, famoso por suas cidades vibrantes, cultura pop e diversidade étnica."
-          },
-          {
-            "word": "canadá",
-            "hint": "País localizado na América do Norte, conhecido por sua beleza natural, qualidade de vida e multiculturalismo."
-          },
-          {
-            "word": "italia",
-            "hint": "País localizado na Europa, famoso por sua cultura rica, gastronomia deliciosa e monumentos históricos impressionantes."
-          },
-          {
-            "word": "holanda",
-            "hint": "País localizado na Europa, famoso por seus campos de tulipas coloridas, bicicletas e canais charmosos."
-          },
-          {
-            "word": "mexico",
-            "hint": "País localizado na América do Norte, conhecido por sua rica história pré-colombiana, culinária picante e praias deslumbrantes."
-          },
-          {
-            "word": "uruguai",
-            "hint": "País localizado na América do Sul, conhecido por sua qualidade de vida, belezas naturais e excelente carne."
-          },
-          {
-            "word": "colômbia",
-            "hint": "País localizado na América do Sul, conhecido por sua biodiversidade, culinária variada e pessoas acolhedoras."
-          },
-          {
-            "word": "argentina",
-            "hint": "País localizado na América do Sul, famoso por suas carnes deliciosas, tangos apaixonantes e belezas naturais impressionantes."
-          },
-          {
-            "word": "espanha",
-            "hint": "País localizado na Europa, famoso por sua culinária deliciosa, história rica e praias incríveis."
-          }
-        ]
+          "name": "Paises",
+          "words": [
+              {
+                  "word": "brasil",
+                  "hint": "Pais localizado na America do Sul, conhecido por sua extensa costa litoranea."
+              },
+              {
+                  "word": "china",
+                  "hint": "Pais localizado na Asia, conhecido por sua rica historia, cultura e economia em expansao."
+              },
+              {
+                  "word": "japao",
+                  "hint": "Pais localizado na Asia, conhecido por sua cultura rica e diversa, tecnologia avancada e culinaria sofisticada."
+              },
+              {
+                  "word": "canada",
+                  "hint": "Pais localizado na America do Norte, conhecido por sua beleza natural, qualidade de vida e multiculturalismo."
+              },
+              {
+                  "word": "italia",
+                  "hint": "Pais localizado na Europa, famoso por sua cultura rica, gastronomia deliciosa e monumentos historicos impressionantes."
+              },
+              {
+                  "word": "mexico",
+                  "hint": "Pais localizado na America do Norte, conhecido por sua rica historia pre-colombiana, culinaria picante e praias deslumbrantes."
+              }
+          ]
       },
       {
-        "name": "Estados do Brasil",
-        "words": [
-          {
-            "word": "pará",
-            "hint": "É o segundo maior estado do Brasil em área territorial."
-          },
-          {
-            "word": "goiás",
-            "hint": "Sua capital é Goiânia e faz divisa com o Distrito Federal."
-          },
-          {
-            "word": "bahia",
-            "hint": "Possui o maior litoral do Brasil e é conhecido por suas praias paradisíacas."
-          },
-          {
-            "word": "são paulo",
-            "hint": "É o estado mais populoso e desenvolvido do Brasil."
-          },
-          {
-            "word": "rio grande do sul",
-            "hint": "Faz fronteira com a Argentina e o Uruguai, e é conhecido por sua produção de vinho."
-          },
-          {
-            "word": "rio de janeiro",
-            "hint": "É o estado que abriga a cidade do Rio de Janeiro, famosa por suas praias e atrações turísticas."
-          },
-          {
-            "word": "pernambuco",
-            "hint": "É o estado onde fica localizada a cidade histórica de Olinda, patrimônio da humanidade."
-          },
-          {
-            "word": "rondônia",
-            "hint": "Faz divisa com a Bolívia e é conhecido por suas belezas naturais, como a Floresta Nacional do Bom Futuro."
-          },
-          {
-            "word": "amapá",
-            "hint": "É o estado mais setentrional do Brasil e possui grande diversidade de ecossistemas."
-          }
-        ]
+          "name": "Profissoes",
+          "words": [
+              {
+                  "word": "medico",
+                  "hint": "Este profissional trabalha com saude e o bem-estar das pessoas."
+              },
+              {
+                  "word": "policial",
+                  "hint": "Esta profissao envolve a protecao e a seguranca da populacao, exigindo coragem, etica e capacidade de trabalhar sob pressao em situacoes de alto risco."
+              },
+
+              {
+                  "word": "piloto",
+                  "hint": "Esta profissao exige muito conhecimento tecnico e habilidades de tomada de decisao sob pressao, alem de boa coordenacao motora."
+              }
+          ]
       },
       {
-        "name": "Profissões",
-        "words": [
-          {
-            "word": "médico",
-            "hint": "Este profissional trabalha com saúde e o bem-estar das pessoas."
-          },
-          {
-            "word": "bombeiro",
-            "hint": "Esta profissão envolve a proteção e o salvamento de pessoas e bens em situações de emergência, exigindo coragem, agilidade e habilidades técnicas para atuar em situações adversas."
-          },
-          {
-            "word": "policial",
-            "hint": "Esta profissão envolve a proteção e a segurança da população, exigindo coragem, ética e capacidade de trabalhar sob pressão em situações de alto risco."
-          },
-          {
-            "word": "psicólogo",
-            "hint": "Este profissional trabalha com a compreensão e tratamento de questões emocionais e mentais, exigindo empatia, sensibilidade e habilidades de comunicação para estabelecer uma relação terapêutica com seus pacientes."
-          },
-          {
-            "word": "programador",
-            "hint": "Esta profissão envolve a habilidade de criar e desenvolver softwares e aplicativos, exigindo conhecimentos avançados em linguagens de programação e habilidades analíticas para solucionar problemas."
-          },
-          {
-            "word": "professor",
-            "hint": "Esta profissão envolve a capacidade de ensinar e orientar alunos em diversas áreas do conhecimento, exigindo paciência, didática, criatividade e muita dedicação."
-          },
-          {
-            "word": "chef de cozinha",
-            "hint": "Esta profissão envolve a criação de pratos deliciosos e agradáveis visualmente, além de uma grande habilidade em gerenciar equipes e otimizar o uso de ingredientes e recursos."
-          },
-          {
-            "word": "escritor",
-            "hint": "Esta profissão envolve a habilidade de contar histórias e expressar ideias por meio da escrita, exigindo criatividade, sensibilidade e muita dedicação para desenvolver habilidades de escrita."
-          },
-          {
-            "word": "engenheiro",
-            "hint": "Este profissional trabalha com o desenvolvimento e aplicação de técnicas e tecnologias para a construção de projetos, desde a infraestrutura de cidades até equipamentos de alta tecnologia."
-          },
-          {
-            "word": "arquiteto",
-            "hint": "Esta profissão envolve a criação de projetos e construções de edifícios e espaços públicos, exigindo criatividade, capacidade de visualização espacial e habilidades técnicas."
-          },
-          {
-            "word": "dentista",
-            "hint": "Este profissional é responsável por cuidar da saúde bucal das pessoas, fazendo diagnósticos e tratamentos de problemas dentários, além de orientar seus pacientes sobre prevenção e cuidados."
-          },
-          {
-            "word": "piloto",
-            "hint": "Esta profissão exige muito conhecimento técnico e habilidades de tomada de decisão sob pressão, além de boa coordenação motora."
-          }
-        ]
-      },
-      {
-        "name": "Deuses Gregos",
-        "words": [
-          {
-            "word": "zeus",
-            "hint": "É conhecido como pai dos deuses e humanos."
-          },
-          {
-            "word": "poseidon",
-            "hint": "Este deus grego é frequentemente associado ao mar, terremotos e cavalos."
-          },
-          {
-            "word": "hades",
-            "hint": "Deus responsável por julgar as almas dos mortos e reinar sobre o mundo dos mortos."
-          },
-          {
-            "word": "afrodite",
-            "hint": "Deusa grega do amor, da beleza e da fertilidade."
-          },
-          {
-            "word": "atena",
-            "hint": "É a deusa da sabedoria, da estratégia militar, da justiça, das artes e da ciência."
-          },
-          {
-            "word": "hefesto",
-            "hint": "Deus conhecido como o ferreiro divino e é o responsável por criar as armas e ferramentas dos deuses."
-          },
-          {
-            "word": "artemis",
-            "hint": "É a deusa da caça e da lua"
-          },
-          {
-            "word": "cronos",
-            "hint": "Deus que temia ser destronado pelos próprios filhos"
-          },
-          {
-            "word": "gaia",
-            "hint": "É a personificação da terra na mitologia grega, sendo considerada a mãe de todos os seres vivos."
-          },
-          {
-            "word": "ares",
-            "hint": "Deus da guerra e da violência, conhecido por sua personalidade impetuosa e agressiva."
-          }
-        ]
+          "name": "Deuses Gregos",
+          "words": [
+              {
+                  "word": "zeus",
+                  "hint": "E conhecido como pai dos deuses e humanos."
+              },
+              {
+                  "word": "hades",
+                  "hint": "Deus responsavel por julgar as almas dos mortos e reinar sobre o mundo dos mortos."
+              },
+              {
+                  "word": "afrodite",
+                  "hint": "Deusa grega do amor, da beleza e da fertilidade."
+              },
+              {
+                  "word": "atena",
+                  "hint": "E a deusa da sabedoria, da estrategia militar, da justica, das artes e da ciencia."
+              },
+              {
+                  "word": "ares",
+                  "hint": "Deus da guerra e da violencia, conhecido por sua personalidade impetuosa e agressiva."
+              }
+          ]
       }
-    ]
-  }
+  ]
+}

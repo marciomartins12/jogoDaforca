@@ -8,18 +8,20 @@ const HomePage = () => {
     const [keyContents, setkeyContets] = useState([]);
     const [tentativas, settentativas] = useState(0);
     const [tenteoutravez, setTenteoutravez] = useState();
+    let [contadorletrasCorretas, setcontadorletrasCorretas] = useState([]);
+    let [venceu, setvenceu] = useState(false);
+    let palavraExplode = keyContents[1] ?? "";
+    const alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
+        'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v'
+        , 'w', 'x', 'y', 'z'];
 
     const eventListenerFal = () => {
         setTenteoutravez(Math.random())
         setletrasClicadas([]);
+        setcontadorletrasCorretas([]);
         settentativas(0);
     }
-    useEffect(() => {
-        if (tentativas >= 6) {
-            alert("perdeu. tente novamente")
-            eventListenerFal();
-        }
-    }, [tentativas]);
+
 
     useEffect(() => {
         let array = chaves['themes'][Math.floor(Math.random() * chaves['themes'].length)]
@@ -33,18 +35,25 @@ const HomePage = () => {
 
 
 
+    useEffect(() => {
+     
+        if (keyContents[1] && contadorletrasCorretas.length === palavraExplode.length) {
+            let letrasOrdenadasCorretas = [...contadorletrasCorretas].sort().join('');
+            let letrasOrdenadasExplode = [...palavraExplode].sort().join('');
+            console.log(letrasOrdenadasCorretas, "e", letrasOrdenadasExplode)
+            if (letrasOrdenadasCorretas === letrasOrdenadasExplode) {
+                setvenceu(true);
+                console.log(venceu)
+            }
+        }
+    }, [contadorletrasCorretas]);
 
 
-    const alfabeto = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
-        'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v'
-        , 'w', 'x', 'y', 'z'];
-
-
-    let palavraExplode = keyContents[1] ?? ""
 
     return (
 
         <main className={Style.container}>
+
 
             <h2>{keyContents[0]}</h2>
 
@@ -72,9 +81,12 @@ const HomePage = () => {
                                 className={`${palavraExplode.includes(letra) ? Style.btn : Style.btnred}`}
                                 disabled={letrasClicadas.includes(letra)}
                                 onClick={() => {
+                                    
                                     setletrasClicadas((item) => [...item, letra]);
                                     if (!palavraExplode.includes(letra)) {
                                         settentativas(tentativas + 1);
+                                    } else {
+                                        setcontadorletrasCorretas((letras) => [...letras, letra])
                                     }
                                 }
                                 }
@@ -86,7 +98,28 @@ const HomePage = () => {
                 </div>
 
             </section>
-
+            <div className={tentativas >= 6 ? Style.perdeu : Style.wait}>
+                <div>
+                    <p>voce perdeu</p>
+                    <p>a palavra era <span>'{keyContents[1]}'</span></p>
+                    <button onClick={() => {
+                        settentativas(0)
+                        eventListenerFal()
+                    }
+                    }>tentar novamente</button>
+                </div>
+            </div>
+            <div className={venceu? Style.vitoria : Style.wait}>
+                <div>
+                    <p>voce venceu</p>
+                    <button onClick={() => {
+                        settentativas(0)
+                        setvenceu(false)
+                        eventListenerFal()
+                    }
+                    }>jogar novamente</button>
+                </div>
+            </div>
         </main>
 
     )
